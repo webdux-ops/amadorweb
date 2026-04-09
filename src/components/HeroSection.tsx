@@ -34,8 +34,7 @@ const HeroSection = () => {
           </Button>
           <Button
             size="lg"
-            variant="outline"
-            className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-heading font-semibold text-base px-8"
+            className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-heading font-semibold text-base px-8"
             onClick={() => document.getElementById("ubicacion")?.scrollIntoView({ behavior: "smooth" })}
           >
             <MapPin className="mr-2 h-5 w-5" />
